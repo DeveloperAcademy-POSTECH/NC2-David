@@ -11,7 +11,8 @@ import SwiftUI
 struct MLCharacteQuizAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
+
