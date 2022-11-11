@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 import SwiftUI
 
+// KeyBoard 자동입력창생성
 struct KeyBoardAppear: UIViewRepresentable {
     
     @Binding var text: String

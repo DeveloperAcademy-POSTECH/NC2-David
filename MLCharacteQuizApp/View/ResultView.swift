@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 
+@available(iOS 16.0, *)
 struct ResultView: View {
     let rightNumber:Int
     
@@ -31,6 +32,7 @@ struct ResultView: View {
 }
 
 
+@available(iOS 16.0, *)
 struct ResultView_Previews: PreviewProvider {
     static var previews: some View {
         ResultView(rightNumber: 3)

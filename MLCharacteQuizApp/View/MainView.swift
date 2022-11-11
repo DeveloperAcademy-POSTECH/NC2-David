@@ -7,11 +7,10 @@
 
 import SwiftUI
 import Foundation
+@available(iOS 16.0, *)
 struct MainView: View {
 
-
     @StateObject private var mainVM = MainViewModel()
-    @StateObject var imageClassification = ImageClassification()
     var body: some View {
         NavigationView{
             VStack {
@@ -35,7 +34,7 @@ struct MainView: View {
                                 mainVM.isQUizNumberEditing = editing
                             }
                         Text("퀴즈수 : \(Int(mainVM.quizNumber))").font(.title)
-                            .foregroundColor(mainVM.isQUizNumberEditing ? .red : .black)
+                            .foregroundColor(mainVM.isQUizNumberEditing ? .red : .blue)
                         Slider(
                             value: $mainVM.inputTime,
                             in: 0...10,
@@ -45,10 +44,10 @@ struct MainView: View {
                                 mainVM.isInputTimeEditing = editing
                             }
                         Text("입력시간 : \(Int(mainVM.inputTime))").font(.title)
-                            .foregroundColor(mainVM.isInputTimeEditing ? .red : .black)
+                            .foregroundColor(mainVM.isInputTimeEditing ? .red : .blue)
                     Button(action: {
                     }) {
-                        NavigationLink(destination: QuizView(q: Int(mainVM.quizNumber), t: Int(mainVM.inputTime)).environmentObject(imageClassification)) {
+                        NavigationLink(destination: NewQuizView(q: Int(mainVM.quizNumber), t: Int(mainVM.inputTime))) {
                             Text("퀴즈시작하기")
                         }
                     }
@@ -64,6 +63,7 @@ struct MainView: View {
         }
     }
 
+@available(iOS 16.0, *)
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()

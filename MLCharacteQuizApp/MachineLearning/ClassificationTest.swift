@@ -1,9 +1,10 @@
 //
-//  ImageClassification.swift
+//  ClassificationTest.swift
 //  MLCharacteQuizApp
 //
-//  Created by David_ADA on 2022/08/30.
+//  Created by David_ADA on 2022/11/12.
 //
+
 import Foundation
 import UIKit
 import ImageIO
@@ -11,9 +12,18 @@ import CoreML
 import Vision
 
 // MARK: - Image Classification
-class ImageClassification: ObservableObject {
+class ClassificationTest: ObservableObject {
+    
     @Published var classificationLabel: String = "Default."
     
+//    func classificationImage(for image: UIImage) -> String {
+//        lazy var classificationRequest: VNCoreMLRequest =
+//
+//
+//
+//        return classificationLabel
+//
+//    }
     /// - Tag: MLModelSetup
     lazy var classificationRequest: VNCoreMLRequest = {
         do {

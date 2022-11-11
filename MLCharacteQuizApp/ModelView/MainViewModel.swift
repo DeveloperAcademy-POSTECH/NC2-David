@@ -14,5 +14,4 @@ class MainViewModel: ObservableObject {
     @Published var isQUizNumberEditing = false
     @Published var isInputTimeEditing = false
     
-    
 }

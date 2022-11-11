@@ -7,37 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6314D5DD2917DD4B00ABF49B /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314D5DC2917DD4B00ABF49B /* QuizView.swift */; };
 		6315F4C728BDF0390034DD85 /* ImageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315F4C628BDF0390034DD85 /* ImageClassification.swift */; };
-		6315F4CF28BF342A0034DD85 /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315F4CE28BF342A0034DD85 /* Ref.swift */; };
 		631AF65E28BA393C008CC3D2 /* MLCharacteQuizAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631AF65D28BA393C008CC3D2 /* MLCharacteQuizAppApp.swift */; };
 		631AF66028BA393C008CC3D2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631AF65F28BA393C008CC3D2 /* MainView.swift */; };
 		631AF66228BA393D008CC3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631AF66128BA393D008CC3D2 /* Assets.xcassets */; };
 		631AF66528BA393D008CC3D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631AF66428BA393D008CC3D2 /* Preview Assets.xcassets */; };
 		631AF67028BA3B1F008CC3D2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631AF66F28BA3B1F008CC3D2 /* MainViewModel.swift */; };
-		6324FC9E28BC83D2006EB180 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324FC9D28BC83D2006EB180 /* QuizModel.swift */; };
+		6324FC9E28BC83D2006EB180 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324FC9D28BC83D2006EB180 /* QuizViewModel.swift */; };
 		6324FCD128BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324FCD028BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift */; };
 		6324FCD428BCD9CC006EB180 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324FCD328BCD9CC006EB180 /* ImagePicker.swift */; };
-		635CAE0128BF46BF000FE0B2 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CAE0028BF46BF000FE0B2 /* QuizView.swift */; };
-		635CAE0328BF7BA4000FE0B2 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CAE0228BF7BA4000FE0B2 /* QuizViewModel.swift */; };
+		63718165291F3DAE00FC29F2 /* ClassificationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63718164291F3DAE00FC29F2 /* ClassificationTest.swift */; };
 		63CF478528C0A6370005D5EA /* KeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF478428C0A6370005D5EA /* KeyBoard.swift */; };
 		63CF478728C16BFF0005D5EA /* FamousPeople.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 63CF478628C16BFF0005D5EA /* FamousPeople.mlpackage */; };
 		63CF478928C173460005D5EA /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF478828C173460005D5EA /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6314D5DC2917DD4B00ABF49B /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		6315F4C628BDF0390034DD85 /* ImageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassification.swift; sourceTree = "<group>"; };
-		6315F4CE28BF342A0034DD85 /* Ref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
 		631AF65A28BA393C008CC3D2 /* MLCharacteQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCharacteQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		631AF65D28BA393C008CC3D2 /* MLCharacteQuizAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLCharacteQuizAppApp.swift; sourceTree = "<group>"; };
 		631AF65F28BA393C008CC3D2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		631AF66128BA393D008CC3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		631AF66428BA393D008CC3D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		631AF66F28BA3B1F008CC3D2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		6324FC9D28BC83D2006EB180 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		6324FC9D28BC83D2006EB180 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizViewModel.swift; path = ../Model/QuizViewModel.swift; sourceTree = "<group>"; };
 		6324FCD028BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage + UIImage Orientation Extension.swift"; sourceTree = "<group>"; };
 		6324FCD328BCD9CC006EB180 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		635CAE0028BF46BF000FE0B2 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
-		635CAE0228BF7BA4000FE0B2 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		63718164291F3DAE00FC29F2 /* ClassificationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationTest.swift; sourceTree = "<group>"; };
 		63CF478428C0A6370005D5EA /* KeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoard.swift; sourceTree = "<group>"; };
 		63CF478628C16BFF0005D5EA /* FamousPeople.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = FamousPeople.mlpackage; sourceTree = "<group>"; };
 		63CF478828C173460005D5EA /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
@@ -77,11 +75,9 @@
 				631AF66E28BA3AA9008CC3D2 /* ModelView */,
 				631AF66D28BA3AA1008CC3D2 /* View */,
 				631AF66C28BA3A92008CC3D2 /* MachineLearning */,
-				631AF66B28BA3A88008CC3D2 /* Model */,
 				631AF65D28BA393C008CC3D2 /* MLCharacteQuizAppApp.swift */,
 				631AF66128BA393D008CC3D2 /* Assets.xcassets */,
 				631AF66328BA393D008CC3D2 /* Preview Content */,
-				6315F4CE28BF342A0034DD85 /* Ref.swift */,
 			);
 			path = MLCharacteQuizApp;
 			sourceTree = "<group>";
@@ -94,20 +90,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		631AF66B28BA3A88008CC3D2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				6324FC9D28BC83D2006EB180 /* QuizModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		631AF66C28BA3A92008CC3D2 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
 				63CF478628C16BFF0005D5EA /* FamousPeople.mlpackage */,
 				6324FCD028BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift */,
 				6315F4C628BDF0390034DD85 /* ImageClassification.swift */,
+				63718164291F3DAE00FC29F2 /* ClassificationTest.swift */,
 			);
 			path = MachineLearning;
 			sourceTree = "<group>";
@@ -116,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				631AF65F28BA393C008CC3D2 /* MainView.swift */,
-				635CAE0028BF46BF000FE0B2 /* QuizView.swift */,
 				63CF478828C173460005D5EA /* ResultView.swift */,
+				6314D5DC2917DD4B00ABF49B /* QuizView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,8 +114,8 @@
 		631AF66E28BA3AA9008CC3D2 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
+				6324FC9D28BC83D2006EB180 /* QuizViewModel.swift */,
 				631AF66F28BA3B1F008CC3D2 /* MainViewModel.swift */,
-				635CAE0228BF7BA4000FE0B2 /* QuizViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -213,15 +202,14 @@
 				631AF66028BA393C008CC3D2 /* MainView.swift in Sources */,
 				6324FCD128BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift in Sources */,
 				6324FCD428BCD9CC006EB180 /* ImagePicker.swift in Sources */,
+				63718165291F3DAE00FC29F2 /* ClassificationTest.swift in Sources */,
 				6315F4C728BDF0390034DD85 /* ImageClassification.swift in Sources */,
 				631AF65E28BA393C008CC3D2 /* MLCharacteQuizAppApp.swift in Sources */,
-				635CAE0328BF7BA4000FE0B2 /* QuizViewModel.swift in Sources */,
 				63CF478728C16BFF0005D5EA /* FamousPeople.mlpackage in Sources */,
 				63CF478928C173460005D5EA /* ResultView.swift in Sources */,
-				6324FC9E28BC83D2006EB180 /* QuizModel.swift in Sources */,
-				635CAE0128BF46BF000FE0B2 /* QuizView.swift in Sources */,
+				6324FC9E28BC83D2006EB180 /* QuizViewModel.swift in Sources */,
+				6314D5DD2917DD4B00ABF49B /* QuizView.swift in Sources */,
 				631AF67028BA3B1F008CC3D2 /* MainViewModel.swift in Sources */,
-				6315F4CF28BF342A0034DD85 /* Ref.swift in Sources */,
 				63CF478528C0A6370005D5EA /* KeyBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
