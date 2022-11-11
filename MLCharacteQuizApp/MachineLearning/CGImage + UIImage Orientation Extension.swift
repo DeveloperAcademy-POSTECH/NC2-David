@@ -9,12 +9,9 @@ import Foundation
 import UIKit
 import ImageIO
 
+// ImageOrientaion Portrait LandScape등의  이미지회전을 대비함
 extension CGImagePropertyOrientation {
-    /// Converts an Image Orientation to a Core Graphics Image Property Orientation.
-    /// Parameter Orientation: A "UIIMage.Orientation Instance
-    ///
-    /// The Two Orientation Types Use Different Raw Values.
-    ///
+    
     init(_ orientation: UIImage.Orientation) {
         switch orientation {
             case .up: self = .up

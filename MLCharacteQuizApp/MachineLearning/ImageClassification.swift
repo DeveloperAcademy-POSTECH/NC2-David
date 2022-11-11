@@ -4,12 +4,6 @@
 //
 //  Created by David_ADA on 2022/08/30.
 //
-
-import Foundation
-import UIKit
-import ImageIO
-import CoreML
-import Vision
 import Foundation
 import UIKit
 import ImageIO
@@ -18,16 +12,11 @@ import Vision
 
 // MARK: - Image Classification
 class ImageClassification: ObservableObject {
-    @Published var classificationLabel: String = "Add a photo."
+    @Published var classificationLabel: String = "Default."
     
     /// - Tag: MLModelSetup
     lazy var classificationRequest: VNCoreMLRequest = {
         do {
-            /*
-             Use the Swift class `MobileNet` Core ML generates from the model.
-             To use a different Core ML classifier model, add it to the project
-             and replace `MobileNet` with that model's generated Swift class.
-             */
             let modelURL = Bundle.main.url(forResource: "FamousPeople", withExtension: "mlmodelc")!
             let model = try VNCoreMLModel(for: FamousPeople(contentsOf: modelURL).model)
             
@@ -54,11 +43,6 @@ class ImageClassification: ObservableObject {
             do {
                 try handler.perform([self.classificationRequest])
             } catch {
-                /*
-                 This handler catches general image processing errors. The `classificationRequest`'s
-                 completion handler `processClassifications(_:error:)` catches errors specific
-                 to processing that request.
-                 */
                 print("Failed to perform classification.\n\(error.localizedDescription)")
             }
         }

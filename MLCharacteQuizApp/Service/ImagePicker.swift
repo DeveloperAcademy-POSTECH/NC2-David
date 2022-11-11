@@ -9,7 +9,8 @@ import Foundation
 import UIKit
 import SwiftUI
 
-// MARK: - ImagePicker
+
+// MARK: - ImagePicker Imageclassification UIImage 동기화
 struct ImagePicker: UIViewControllerRepresentable {
     var sourceType: UIImagePickerController.SourceType = .photoLibrary
 
