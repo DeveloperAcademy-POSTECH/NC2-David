@@ -17,7 +17,10 @@
 		6324FC9E28BC83D2006EB180 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324FC9D28BC83D2006EB180 /* QuizViewModel.swift */; };
 		6324FCD128BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324FCD028BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift */; };
 		6324FCD428BCD9CC006EB180 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324FCD328BCD9CC006EB180 /* ImagePicker.swift */; };
+<<<<<<< HEAD
 		63718165291F3DAE00FC29F2 /* ClassificationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63718164291F3DAE00FC29F2 /* ClassificationTest.swift */; };
+=======
+>>>>>>> main
 		63CF478528C0A6370005D5EA /* KeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF478428C0A6370005D5EA /* KeyBoard.swift */; };
 		63CF478728C16BFF0005D5EA /* FamousPeople.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 63CF478628C16BFF0005D5EA /* FamousPeople.mlpackage */; };
 		63CF478928C173460005D5EA /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF478828C173460005D5EA /* ResultView.swift */; };
@@ -35,7 +38,10 @@
 		6324FC9D28BC83D2006EB180 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizViewModel.swift; path = ../Model/QuizViewModel.swift; sourceTree = "<group>"; };
 		6324FCD028BCD867006EB180 /* CGImage + UIImage Orientation Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage + UIImage Orientation Extension.swift"; sourceTree = "<group>"; };
 		6324FCD328BCD9CC006EB180 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		63718164291F3DAE00FC29F2 /* ClassificationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationTest.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> main
 		63CF478428C0A6370005D5EA /* KeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoard.swift; sourceTree = "<group>"; };
 		63CF478628C16BFF0005D5EA /* FamousPeople.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = FamousPeople.mlpackage; sourceTree = "<group>"; };
 		63CF478828C173460005D5EA /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
