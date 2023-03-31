@@ -1,6 +1,6 @@
 
 # 프로젝트요약
-## 파이썬 이미지 크롤링을 이용해 자체 모델데이터셋을 트레이닝시킨 ML 사용한 iOS 
+## 파이썬 이미지 크롤링을 이용해 자체 모델데이터셋을 트레이닝시킨 ML 사용한 iOS 퀴즈앱
 
 <div>
    <img src = "https://user-images.githubusercontent.com/82954337/228703138-26cc047d-26ee-498b-a0c1-492c7ceb3d8e.png" width="300" height="height 300">
